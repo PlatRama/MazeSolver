@@ -93,12 +93,7 @@ int main()
 
     stats_util.printAllStatistics();
 
-    stats_util.exportStatisticsToCSV("C:/Users/plato/Downloads/maze_solver_statistics.csv");
-
-
-    git config --global user.name "PlatRama"
-    git config --global user.email "plator97@gmail.com"
-
+    stats_util.exportStatisticsToCSV("maze_solver_statistics.csv");
 
     return 0;
 }
