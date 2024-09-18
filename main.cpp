@@ -52,7 +52,6 @@ int main()
 
                 double start_time = omp_get_wtime();
                 sequential_solver(maze, particles);
-                //auto seq_time_elapsed = duration_cast<milliseconds>(omp_get_wtime() - start_time).count();
                 auto seq_time_elapsed = (omp_get_wtime() - start_time) * 1000;
 
                 stats_util.addSequentialTime(original_maze.m, num_par, seq_time_elapsed);
@@ -80,7 +79,6 @@ int main()
 
                     auto start_time = omp_get_wtime();
                     parallel_solver(maze, particles, num_thread);
-                    //auto par_time_elapsed = duration_cast<milliseconds>(system_clock::now() - start_time).count();
                     auto par_time_elapsed = (omp_get_wtime() - start_time) * 1000;
                     
                     stats_util.addParallelTime(original_maze.m, num_par, num_thread, par_time_elapsed);
