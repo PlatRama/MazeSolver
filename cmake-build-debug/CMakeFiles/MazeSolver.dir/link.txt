@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2024.1.5\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\MazeSolver.dir/objects.a
-C:\TDM-GCC-64\bin\ar.exe qc CMakeFiles\MazeSolver.dir/objects.a @CMakeFiles\MazeSolver.dir\objects1.rsp
-C:\TDM-GCC-64\bin\c++.exe  -fopenmp  -g -Wl,--whole-archive CMakeFiles\MazeSolver.dir/objects.a -Wl,--no-whole-archive -o MazeSolver.exe -Wl,--out-implib,libMazeSolver.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MazeSolver.dir\linkLibs.rsp

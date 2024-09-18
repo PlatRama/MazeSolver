@@ -1,3 +1,0 @@
-C:/Users/plato/CLionProjects/MazeSolver/cmake-build-debug/CMakeFiles/MazeSolver.dir
-C:/Users/plato/CLionProjects/MazeSolver/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/plato/CLionProjects/MazeSolver/cmake-build-debug/CMakeFiles/rebuild_cache.dir
