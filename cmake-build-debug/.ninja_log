@@ -1,0 +1,8 @@
+# ninja log v6
+15	934	7472481415358155	CMakeFiles/MazeSolver.dir/main.cpp.obj	3c76b5f1f0dccca2
+23	544	7471699788968596	CMakeFiles/MazeSolver.dir/Maze.cpp.obj	925a8f0c802eb27e
+935	1391	7472481424546511	MazeSolver.exe	525455d6e8815274
+11	244	7472489212786309	build.ninja	df6c533ca5364a4a
+19	532	7472489215608879	CMakeFiles/MazeSolver.dir/Maze.cpp.obj	925a8f0c802eb27e
+16	955	7472489215578851	CMakeFiles/MazeSolver.dir/main.cpp.obj	3c76b5f1f0dccca2
+955	1409	7472489224967388	MazeSolver.exe	525455d6e8815274
