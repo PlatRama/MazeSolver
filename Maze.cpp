@@ -307,9 +307,6 @@ public:
         int newX = particle.currentPosition.x + move.x;
         int newY = particle.currentPosition.y + move.y;
 
-        // Update the maze and the particle's position
-        grid[particle.currentPosition.x][particle.currentPosition.y] = not_wall_character;
-        // Mark the old position as empty
         particle.currentPosition = {newX, newY}; // Update particle's position
 
         // Record the new position in the particle's path
